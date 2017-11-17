@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E82AD7A1D75A29D000A3247 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E82AD791D75A29D000A3247 /* main.m */; };
+		9E82AD7D1D75A29D000A3247 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E82AD7C1D75A29D000A3247 /* AppDelegate.m */; };
+		9E82AD801D75A29D000A3247 /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E82AD7F1D75A29D000A3247 /* DiscoverVC.m */; };
+		9E82AD831D75A29D000A3247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E82AD811D75A29D000A3247 /* Main.storyboard */; };
+		9E82AD851D75A29D000A3247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E82AD841D75A29D000A3247 /* Assets.xcassets */; };
+		9E82AD881D75A29D000A3247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E82AD861D75A29D000A3247 /* LaunchScreen.storyboard */; };
+		9E82AD931D75A29E000A3247 /* PeerToPeerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E82AD921D75A29E000A3247 /* PeerToPeerTests.m */; };
+		9E82AD9E1D75A29E000A3247 /* PeerToPeerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E82AD9D1D75A29E000A3247 /* PeerToPeerUITests.m */; };
+		9E82ADB01D75AF7C000A3247 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E82ADAF1D75AF7C000A3247 /* LoginVC.m */; settings = {ASSET_TAGS = (); }; };
+		9E82ADB31D75B076000A3247 /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E82ADB21D75B076000A3247 /* MCManager.m */; settings = {ASSET_TAGS = (); }; };
+		9EDC4B8B1D76CA5E00697744 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDC4B8A1D76CA5E00697744 /* MultipeerConnectivity.framework */; };
+		9EDC4B8E1D76E15400697744 /* Peer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDC4B8D1D76E15400697744 /* Peer.m */; settings = {ASSET_TAGS = (); }; };
+		9EDC4B911D76E6AE00697744 /* MyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDC4B901D76E6AE00697744 /* MyInfo.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E82AD8F1D75A29E000A3247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E82AD6D1D75A29D000A3247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E82AD741D75A29D000A3247;
+			remoteInfo = PeerToPeer;
+		};
+		9E82AD9A1D75A29E000A3247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E82AD6D1D75A29D000A3247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E82AD741D75A29D000A3247;
+			remoteInfo = PeerToPeer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E82AD751D75A29D000A3247 /* PeerToPeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerToPeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E82AD791D75A29D000A3247 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E82AD7B1D75A29D000A3247 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E82AD7C1D75A29D000A3247 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E82AD7E1D75A29D000A3247 /* DiscoverVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverVC.h; sourceTree = "<group>"; };
+		9E82AD7F1D75A29D000A3247 /* DiscoverVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverVC.m; sourceTree = "<group>"; };
+		9E82AD821D75A29D000A3247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E82AD841D75A29D000A3247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E82AD871D75A29D000A3247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E82AD891D75A29D000A3247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E82AD8E1D75A29E000A3247 /* PeerToPeerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerToPeerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E82AD921D75A29E000A3247 /* PeerToPeerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeerToPeerTests.m; sourceTree = "<group>"; };
+		9E82AD941D75A29E000A3247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E82AD991D75A29E000A3247 /* PeerToPeerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerToPeerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E82AD9D1D75A29E000A3247 /* PeerToPeerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeerToPeerUITests.m; sourceTree = "<group>"; };
+		9E82AD9F1D75A29E000A3247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E82ADAE1D75AF7C000A3247 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		9E82ADAF1D75AF7C000A3247 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		9E82ADB11D75B076000A3247 /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
+		9E82ADB21D75B076000A3247 /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCManager.m; sourceTree = "<group>"; };
+		9EDC4B8A1D76CA5E00697744 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		9EDC4B8C1D76E15400697744 /* Peer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peer.h; sourceTree = "<group>"; };
+		9EDC4B8D1D76E15400697744 /* Peer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Peer.m; sourceTree = "<group>"; };
+		9EDC4B8F1D76E6AE00697744 /* MyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfo.h; sourceTree = "<group>"; };
+		9EDC4B901D76E6AE00697744 /* MyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfo.m; sourceTree = "<group>"; };
+		9EEFB96B1D785C9B003B3794 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E82AD721D75A29D000A3247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDC4B8B1D76CA5E00697744 /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E82AD8B1D75A29E000A3247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E82AD961D75A29E000A3247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E82AD6C1D75A29D000A3247 = {
+			isa = PBXGroup;
+			children = (
+				9EDC4B8A1D76CA5E00697744 /* MultipeerConnectivity.framework */,
+				9E82AD771D75A29D000A3247 /* PeerToPeer */,
+				9E82AD911D75A29E000A3247 /* PeerToPeerTests */,
+				9E82AD9C1D75A29E000A3247 /* PeerToPeerUITests */,
+				9E82AD761D75A29D000A3247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E82AD761D75A29D000A3247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E82AD751D75A29D000A3247 /* PeerToPeer.app */,
+				9E82AD8E1D75A29E000A3247 /* PeerToPeerTests.xctest */,
+				9E82AD991D75A29E000A3247 /* PeerToPeerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E82AD771D75A29D000A3247 /* PeerToPeer */ = {
+			isa = PBXGroup;
+			children = (
+				9E82AD7B1D75A29D000A3247 /* AppDelegate.h */,
+				9E82AD7C1D75A29D000A3247 /* AppDelegate.m */,
+				9E82AD7E1D75A29D000A3247 /* DiscoverVC.h */,
+				9E82AD7F1D75A29D000A3247 /* DiscoverVC.m */,
+				9E82ADAE1D75AF7C000A3247 /* LoginVC.h */,
+				9E82ADAF1D75AF7C000A3247 /* LoginVC.m */,
+				9E82ADB11D75B076000A3247 /* MCManager.h */,
+				9E82ADB21D75B076000A3247 /* MCManager.m */,
+				9EDC4B8C1D76E15400697744 /* Peer.h */,
+				9EDC4B8D1D76E15400697744 /* Peer.m */,
+				9EDC4B8F1D76E6AE00697744 /* MyInfo.h */,
+				9EDC4B901D76E6AE00697744 /* MyInfo.m */,
+				9E82AD811D75A29D000A3247 /* Main.storyboard */,
+				9E82AD841D75A29D000A3247 /* Assets.xcassets */,
+				9E82AD861D75A29D000A3247 /* LaunchScreen.storyboard */,
+				9E82AD891D75A29D000A3247 /* Info.plist */,
+				9E82AD781D75A29D000A3247 /* Supporting Files */,
+			);
+			path = PeerToPeer;
+			sourceTree = "<group>";
+		};
+		9E82AD781D75A29D000A3247 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EEFB96B1D785C9B003B3794 /* PrefixHeader.pch */,
+				9E82AD791D75A29D000A3247 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E82AD911D75A29E000A3247 /* PeerToPeerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E82AD921D75A29E000A3247 /* PeerToPeerTests.m */,
+				9E82AD941D75A29E000A3247 /* Info.plist */,
+			);
+			path = PeerToPeerTests;
+			sourceTree = "<group>";
+		};
+		9E82AD9C1D75A29E000A3247 /* PeerToPeerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E82AD9D1D75A29E000A3247 /* PeerToPeerUITests.m */,
+				9E82AD9F1D75A29E000A3247 /* Info.plist */,
+			);
+			path = PeerToPeerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E82AD741D75A29D000A3247 /* PeerToPeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E82ADA21D75A29E000A3247 /* Build configuration list for PBXNativeTarget "PeerToPeer" */;
+			buildPhases = (
+				9E82AD711D75A29D000A3247 /* Sources */,
+				9E82AD721D75A29D000A3247 /* Frameworks */,
+				9E82AD731D75A29D000A3247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeerToPeer;
+			productName = PeerToPeer;
+			productReference = 9E82AD751D75A29D000A3247 /* PeerToPeer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E82AD8D1D75A29E000A3247 /* PeerToPeerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E82ADA51D75A29E000A3247 /* Build configuration list for PBXNativeTarget "PeerToPeerTests" */;
+			buildPhases = (
+				9E82AD8A1D75A29E000A3247 /* Sources */,
+				9E82AD8B1D75A29E000A3247 /* Frameworks */,
+				9E82AD8C1D75A29E000A3247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E82AD901D75A29E000A3247 /* PBXTargetDependency */,
+			);
+			name = PeerToPeerTests;
+			productName = PeerToPeerTests;
+			productReference = 9E82AD8E1D75A29E000A3247 /* PeerToPeerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E82AD981D75A29E000A3247 /* PeerToPeerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E82ADA81D75A29E000A3247 /* Build configuration list for PBXNativeTarget "PeerToPeerUITests" */;
+			buildPhases = (
+				9E82AD951D75A29E000A3247 /* Sources */,
+				9E82AD961D75A29E000A3247 /* Frameworks */,
+				9E82AD971D75A29E000A3247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E82AD9B1D75A29E000A3247 /* PBXTargetDependency */,
+			);
+			name = PeerToPeerUITests;
+			productName = PeerToPeerUITests;
+			productReference = 9E82AD991D75A29E000A3247 /* PeerToPeerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E82AD6D1D75A29D000A3247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = myth;
+				TargetAttributes = {
+					9E82AD741D75A29D000A3247 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					9E82AD8D1D75A29E000A3247 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9E82AD741D75A29D000A3247;
+					};
+					9E82AD981D75A29E000A3247 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9E82AD741D75A29D000A3247;
+					};
+				};
+			};
+			buildConfigurationList = 9E82AD701D75A29D000A3247 /* Build configuration list for PBXProject "PeerToPeer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E82AD6C1D75A29D000A3247;
+			productRefGroup = 9E82AD761D75A29D000A3247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E82AD741D75A29D000A3247 /* PeerToPeer */,
+				9E82AD8D1D75A29E000A3247 /* PeerToPeerTests */,
+				9E82AD981D75A29E000A3247 /* PeerToPeerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E82AD731D75A29D000A3247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E82AD881D75A29D000A3247 /* LaunchScreen.storyboard in Resources */,
+				9E82AD851D75A29D000A3247 /* Assets.xcassets in Resources */,
+				9E82AD831D75A29D000A3247 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E82AD8C1D75A29E000A3247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E82AD971D75A29E000A3247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E82AD711D75A29D000A3247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDC4B911D76E6AE00697744 /* MyInfo.m in Sources */,
+				9E82ADB31D75B076000A3247 /* MCManager.m in Sources */,
+				9E82AD801D75A29D000A3247 /* DiscoverVC.m in Sources */,
+				9E82AD7D1D75A29D000A3247 /* AppDelegate.m in Sources */,
+				9E82ADB01D75AF7C000A3247 /* LoginVC.m in Sources */,
+				9E82AD7A1D75A29D000A3247 /* main.m in Sources */,
+				9EDC4B8E1D76E15400697744 /* Peer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E82AD8A1D75A29E000A3247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E82AD931D75A29E000A3247 /* PeerToPeerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E82AD951D75A29E000A3247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E82AD9E1D75A29E000A3247 /* PeerToPeerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E82AD901D75A29E000A3247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E82AD741D75A29D000A3247 /* PeerToPeer */;
+			targetProxy = 9E82AD8F1D75A29E000A3247 /* PBXContainerItemProxy */;
+		};
+		9E82AD9B1D75A29E000A3247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E82AD741D75A29D000A3247 /* PeerToPeer */;
+			targetProxy = 9E82AD9A1D75A29E000A3247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E82AD811D75A29D000A3247 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E82AD821D75A29D000A3247 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E82AD861D75A29D000A3247 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E82AD871D75A29D000A3247 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E82ADA01D75A29E000A3247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E82ADA11D75A29E000A3247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E82ADA31D75A29E000A3247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PeerToPeer/PrefixHeader.pch;
+				INFOPLIST_FILE = PeerToPeer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myth.FirstApp.PeerToPeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E82ADA41D75A29E000A3247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PeerToPeer/PrefixHeader.pch;
+				INFOPLIST_FILE = PeerToPeer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myth.FirstApp.PeerToPeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9E82ADA61D75A29E000A3247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeerToPeerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myth.FirstApp.PeerToPeerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeerToPeer.app/PeerToPeer";
+			};
+			name = Debug;
+		};
+		9E82ADA71D75A29E000A3247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeerToPeerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myth.FirstApp.PeerToPeerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeerToPeer.app/PeerToPeer";
+			};
+			name = Release;
+		};
+		9E82ADA91D75A29E000A3247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PeerToPeerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myth.FirstApp.PeerToPeerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PeerToPeer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9E82ADAA1D75A29E000A3247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PeerToPeerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myth.FirstApp.PeerToPeerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PeerToPeer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E82AD701D75A29D000A3247 /* Build configuration list for PBXProject "PeerToPeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E82ADA01D75A29E000A3247 /* Debug */,
+				9E82ADA11D75A29E000A3247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E82ADA21D75A29E000A3247 /* Build configuration list for PBXNativeTarget "PeerToPeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E82ADA31D75A29E000A3247 /* Debug */,
+				9E82ADA41D75A29E000A3247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E82ADA51D75A29E000A3247 /* Build configuration list for PBXNativeTarget "PeerToPeerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E82ADA61D75A29E000A3247 /* Debug */,
+				9E82ADA71D75A29E000A3247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E82ADA81D75A29E000A3247 /* Build configuration list for PBXNativeTarget "PeerToPeerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E82ADA91D75A29E000A3247 /* Debug */,
+				9E82ADAA1D75A29E000A3247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E82AD6D1D75A29D000A3247 /* Project object */;
+}

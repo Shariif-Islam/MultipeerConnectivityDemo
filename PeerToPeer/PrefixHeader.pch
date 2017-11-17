@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  PeerToPeer
+//
+//  Created by Shariif Islam on 9/1/16.
+//  Copyright © 2016 myth. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define NOT_CONNECTED @"NOT_CONNECTED"
+#define CONNECTED @"CONNECTED"
+#define CONNECTING @"CONNECTING"
+
+#endif /* PrefixHeader_pch */
